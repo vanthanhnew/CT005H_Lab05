@@ -12,20 +12,24 @@
         .description { background: #e8f0fe; padding: 15px; border-left: 5px solid #1a73e8; margin: 20px 0; }
         .media-item { text-align: center; margin-bottom: 40px; }
         img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px; }
-        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 20px; }
         .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 4px; }
         .copyright { font-size: 0.85em; color: #555; background: #f1f1f1; padding: 15px; margin-top: 40px; border-radius: 4px; }
         footer { text-align: center; margin-top: 20px; font-weight: bold; }
+        /* CSS cho nút bấm PDF */
+        .btn-pdf { display: inline-block; background-color: #dc3545; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background 0.3s; }
+        .btn-pdf:hover { background-color: #a71d2a; }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h1>Tạo và quản lý mã nguồn</h1>
+        <h1>Hồ sơ năng lực số - Lab 05</h1>
 
         <div class="description">
-            <p><strong>Mô tả:</strong> Trang web này hiển thị các sản phẩm nội dung số được tạo ra trong bài thực hành 05, bao gồm Infographic thiết kế bằng Canva AI và Video giới thiệu được biên tập bằng CapCut.</p>
+            <p><strong>Mô tả:</strong> Trang web này hiển thị các sản phẩm nội dung số được tạo ra trong bài thực hành 05, bao gồm Infographic, Video và Tài liệu báo cáo PDF.</p>
             <p><strong>Sinh viên thực hiện:</strong> Bùi Văn Thành</p>
+            <p><strong>MSSV:</strong> B2505070</p> 
         </div>
 
         <div class="media-item">
@@ -37,6 +41,15 @@
             <h2>2. Video: Ứng dụng Công nghệ trong học tập</h2>
             <div class="video-container">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/fL56alTdPsI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="media-item">
+            <h2>3. Tài liệu Báo cáo (PDF)</h2>
+            <p>Báo cáo chi tiết về chủ đề Ứng dụng công nghệ số trong học tập.</p>
+            <a href="Lab05_Ex1.2.pdf" target="_blank" class="btn-pdf">
+                📄 Xem và Tải file PDF
+            </a>
         </div>
 
         <div class="copyright">
@@ -50,7 +63,7 @@
         </div>
 
         <footer>
-            <p>© 2026 - B2505070</p>
+            <p>© 2026 - B2505070 - Bùi Văn Thành</p>
         </footer>
     </div>
 
